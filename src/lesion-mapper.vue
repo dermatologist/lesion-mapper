@@ -16,12 +16,18 @@
             <hr>
             <button v-on:click="createLesion('atrophy')">Atrophy</button>
             <button v-on:click="createLesion('crusting')">Crusting</button>
-            <button v-on:click="createLesion('demarcated')">Demarcated</button>
+            <button v-on:click="createLesion('excoriation')">Excoriation</button>
             <button v-on:click="createLesion('lichenification')">Lichenification</button>
             <button v-on:click="createLesion('purpura')">Purpura</button>
             <button v-on:click="createLesion('scaling')">Scaling</button>
             <button v-on:click="createLesion('scarring')">Scarring</button>
             <button v-on:click="createLesion('telangiectasia')">Telangiectasia</button>
+            <hr>
+            <button v-on:click="createLesion('demarcated')">Demarcated</button>
+            <button v-on:click="createLesion('grouped')">Grouped</button>
+            <button v-on:click="createLesion('hirsutism')">Hirsutism</button>
+            <button v-on:click="createLesion('photosensitivity')">Photosensitivity</button>
+
             <hr>
             <button v-on:click="startDraw()">Draw</button>
             <button v-on:click="clearCanvas()">Clear</button>
