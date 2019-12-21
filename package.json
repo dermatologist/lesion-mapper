@@ -2,27 +2,25 @@
   "name": "lesion-mapper",
   "version": "1.0.0",
   "description": "",
-
   "main": "dist/lesion-mapper.ssr.js",
   "module": "dist/lesion-mapper.esm.js",
   "unpkg": "dist/lesion-mapper.min.js",
-
   "files": [
     "dist/*",
-    "src/**/*.vue"
+    "src/**/*.vue",
+    "src/**/*.js"
   ],
-
   "scripts": {
-    "serve": "vue serve --port 8092 ./src/lesion-mapper.vue",
+    "serve": "vue serve --port 8085 ./src/lesion-mapper.vue",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
     "build:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
-
   "dependencies": {
+    "canvas": "^2.6.1",
+    "vuejs-fabric": "0.2.7"
   },
-
   "devDependencies": {
     "@rollup/plugin-alias": "^2.2.0",
     "@rollup/plugin-buble": "^0.20.0",
