@@ -1,6 +1,6 @@
 # Lesion Mapper - Vue Component
 
-![LesionMapper](https://raw.github.com/dermatologist/lesion-mapper/develop/notes/lesion-mapper.png)
+![LesionMapper](https://github.com/dermatologist/lesion-mapper/raw/develop/notes/lesion-mapper.png)
 
 ## What is Lesion Mapper
 
