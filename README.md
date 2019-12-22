@@ -4,9 +4,9 @@
 
 ## What is Lesion Mapper
 
-Documenting skin lesions on body wireframes is common in dermatology and can be better in many ways than lengthy textual documentation.  LesionMapperTM is a tool and a method to standardize the mapping. In the LesionMapper methodology, the type of lesions are represented by clinical pictures instead of icons. The severity is represented by the opacity/translucency of the image and the location and distribution by the position and size of the lesion, respectively. The images can be dragged, enlarged or rotated. 
+Documenting skin lesions on body wireframes is common in dermatology and can be better in many ways than textual documentation.  LesionMapperTM is a tool and a method to standardize the mapping of lesions. In the LesionMapper methodology, the type of lesions are represented by icons. The severity is represented by the opacity of the icon and the location and distribution by the position and size of the icon, respectively. The images can be dragged, enlarged or rotated. 
 
-This is a vue component that can be embedded in other systems.
+This is a vue component that can be embedded in other systems. It can export the map as a JSON string or a base64 encoded image.
 
 ## Installation
 
