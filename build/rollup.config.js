@@ -80,7 +80,7 @@ if (!argv.format || argv.format === 'cjs') {
     ...baseConfig,
     external,
     output: {
-      compact: true,
+      compact: false,
       file: 'dist/lesion-mapper.ssr.js',
       format: 'cjs',
       name: 'LesionMapper',
@@ -93,7 +93,7 @@ if (!argv.format || argv.format === 'cjs') {
         ...baseConfig.plugins.vue,
         template: {
           ...baseConfig.plugins.vue.template,
-          optimizeSSR: true,
+          optimizeSSR: false,
         },
       }),
       ...baseConfig.plugins.postVue,
