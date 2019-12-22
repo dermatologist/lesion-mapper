@@ -27,7 +27,7 @@ Vue.component('LesionMapper',LesionMapper);
 ## Use
 
 ```
- <lesion-mapper ref="canvas" :width="width" :height="height"></lesion-mapper>
+ <lesion-mapper ref="canvas" :lmWidth="width" :lmHeight="height"></lesion-mapper>
 ```
 
 ## Usage
