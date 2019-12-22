@@ -44,6 +44,7 @@ const baseConfig = {
 const external = [
   // list external dependencies, exactly the way it is written in the import statement.
   // eg. 'jquery'
+  'vuejs-fabric'
 ];
 
 // UMD/IIFE shared settings: output.globals
