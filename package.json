@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "canvas": "^2.6.1",
+    "np": "^5.2.1",
     "vuejs-fabric": "0.2.7"
   },
   "devDependencies": {
