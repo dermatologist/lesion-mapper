@@ -1,6 +1,6 @@
 {
   "name": "lesion-mapper",
-  "version": "0.1.1",
+  "version": "0.1.6",
   "description": "Skin Lesion Mapper for Dermatology",
   "author": "Bell Eapen <github_public@nuchange.ca>",
   "repository": {
@@ -17,12 +17,8 @@
   },
   "homepage": "https://github.com/dermatologist/lesion-mapper",
   "main": "dist/lesion-mapper.ssr.js",
-  "module": "dist/lesion-mapper.esm.js",
-  "unpkg": "dist/lesion-mapper.min.js",
   "files": [
-    "dist/*",
-    "src/**/*.vue",
-    "src/**/*.js"
+    "dist/*"
   ],
   "scripts": {
     "serve": "vue serve --port 8085 ./src/lesion-mapper.vue",
