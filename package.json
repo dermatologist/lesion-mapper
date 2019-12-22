@@ -1,6 +1,6 @@
 {
   "name": "lesion-mapper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Skin Lesion Mapper for Dermatology",
   "author": "Bell Eapen <github_public@nuchange.ca>",
   "repository": {
@@ -8,7 +8,9 @@
     "url": "git+https://github.com/dermatologist/lesion-mapper.git"
   },
   "keywords": [
-    "dermatology", "lesion-mapper", "machine-learning"
+    "dermatology",
+    "lesion-mapper",
+    "machine-learning"
   ],
   "bugs": {
     "url": "https://github.com/dermatologist/lesion-mapper.git/issues"
