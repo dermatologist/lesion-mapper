@@ -63,9 +63,9 @@
                 this.$refs.canvas.setBackgroundImage(this.getLesion('body'));
             else
                 this.$refs.canvas.setBackgroundImage(this.lmImage);
-            this.$refs.canvas.loadFromJSON(this.lmJson);
+                this.$refs.canvas.loadFromJSON(this.lmJson);
         },
-    methods: {
+        methods: {
 
         getLesion(lesion){
             return Lesions[lesion]

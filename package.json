@@ -1,7 +1,7 @@
 {
   "name": "lesion-mapper",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Skin Lesion Mapper for Dermatology",
   "main": "dist/lesion-mapper.ssr.js",
   "module": "dist/lesion-mapper.esm.js",
   "unpkg": "dist/lesion-mapper.min.js",
