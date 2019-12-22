@@ -51,6 +51,7 @@ const external = [
 const globals = {
   // Provide global variable names to replace your external imports
   // eg. jquery: '$'
+  "vuejs-fabric": "VueFabric"
 };
 
 // Customize configs for individual targets
