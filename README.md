@@ -11,12 +11,15 @@ This is a vue component that can be embedded in other systems.
 ## Installation
 
 ```
+npm install vuejs-fabric --save
 npm install lesion-mapper --save
+
 ```
 
 ## Import
 
 ```
+import VueFabric from 'vuejs-fabric';
 import LesionMapper from 'lesion-mapper';
 ```
 
