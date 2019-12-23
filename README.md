@@ -30,7 +30,7 @@ Vue.component('LesionMapper',LesionMapper);
 ## Use
 
 ```
- <lesion-mapper ref="canvas" :lmWidth="width" :lmHeight="height"></lesion-mapper>
+ <lesion-mapper ref="lmCanvas" :lmWidth="width" :lmHeight="height"></lesion-mapper>
 ```
 
 ## Usage
@@ -51,6 +51,10 @@ Vue.component('LesionMapper',LesionMapper);
 | ------------------------ | ----- | ------------------- |
 | savelm                   | event | Json representation |
 | exportlm                 | event | Base64 String       |
+
+
+#### Methods
+setLmBackground(image)
 
 ## Contributors
 
