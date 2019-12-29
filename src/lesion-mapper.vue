@@ -4,35 +4,35 @@
         <h3>Lesion Mapper</h3>
         <vue-fabric ref="canvas" @mouse:up="mouseUp" @mouse:down="mouseDown" @mouse:dblclick="dblClick" :width="width" :height="height"></vue-fabric>
         <div class="controls">
-            <button v-on:click="createLesion('bulla')">Bulla</button>
-            <button v-on:click="createLesion('erosion')">Erosion</button>
-            <button v-on:click="createLesion('macule')">Macule</button>
-            <button v-on:click="createLesion('nodule')">Nodule</button>
-            <button v-on:click="createLesion('papule')">Papule</button>
-            <button v-on:click="createLesion('plaque')">Plaque</button>
-            <button v-on:click="createLesion('pustule')">Pustule</button>
-            <button v-on:click="createLesion('ulcer')">Ulcer</button>
-            <button v-on:click="createLesion('vesicle')">Vesicle</button>
+            <button class="button" v-on:click="createLesion('bulla')">Bulla</button>
+            <button class="button" v-on:click="createLesion('erosion')">Erosion</button>
+            <button class="button" v-on:click="createLesion('macule')">Macule</button>
+            <button class="button" v-on:click="createLesion('nodule')">Nodule</button>
+            <button class="button" v-on:click="createLesion('papule')">Papule</button>
+            <button class="button" v-on:click="createLesion('plaque')">Plaque</button>
+            <button class="button" v-on:click="createLesion('pustule')">Pustule</button>
+            <button class="button" v-on:click="createLesion('ulcer')">Ulcer</button>
+            <button class="button" v-on:click="createLesion('vesicle')">Vesicle</button>
             <hr>
-            <button v-on:click="createLesion('atrophy')">Atrophy</button>
-            <button v-on:click="createLesion('crusting')">Crusting</button>
-            <button v-on:click="createLesion('excoriation')">Excoriation</button>
-            <button v-on:click="createLesion('lichenification')">Lichenification</button>
-            <button v-on:click="createLesion('purpura')">Purpura</button>
-            <button v-on:click="createLesion('scaling')">Scaling</button>
-            <button v-on:click="createLesion('scarring')">Scarring</button>
-            <button v-on:click="createLesion('telangiectasia')">Telangiectasia</button>
+            <button class="button" v-on:click="createLesion('atrophy')">Atrophy</button>
+            <button class="button" v-on:click="createLesion('crusting')">Crusting</button>
+            <button class="button" v-on:click="createLesion('excoriation')">Excoriation</button>
+            <button class="button" v-on:click="createLesion('lichenification')">Lichenification</button>
+            <button class="button" v-on:click="createLesion('purpura')">Purpura</button>
+            <button class="button" v-on:click="createLesion('scaling')">Scaling</button>
+            <button class="button" v-on:click="createLesion('scarring')">Scarring</button>
+            <button class="button" v-on:click="createLesion('telangiectasia')">Telangiectasia</button>
             <hr>
-            <button v-on:click="createLesion('demarcated')">Demarcated</button>
-            <button v-on:click="createLesion('grouped')">Grouped</button>
-            <button v-on:click="createLesion('hirsutism')">Hirsutism</button>
-            <button v-on:click="createLesion('photosensitivity')">Photosensitivity</button>
+            <button class="button" v-on:click="createLesion('demarcated')">Demarcated</button>
+            <button class="button" v-on:click="createLesion('grouped')">Grouped</button>
+            <button class="button" v-on:click="createLesion('hirsutism')">Hirsutism</button>
+            <button class="button" v-on:click="createLesion('photosensitivity')">Photosensitivity</button>
 
             <hr>
-            <button v-on:click="startDraw()">Draw</button>
-            <button v-on:click="clearCanvas()">Clear</button>
-            <button v-on:click="saveCanvasJson()">Save</button>
-            <button v-on:click="saveCanvasImage()">Export</button>
+            <button class="button" v-on:click="startDraw()">Draw</button>
+            <button class="button" v-on:click="clearCanvas()">Clear</button>
+            <button class="button" v-on:click="saveCanvasJson()">Save</button>
+            <button class="button" v-on:click="saveCanvasImage()">Export</button>
 
         </div>
         <div id="color-opacity-controls">
@@ -144,5 +144,21 @@
     }
     .lesion-mapper p {
         margin: 0 0 1em;
+    }
+    .button {
+        background-color: white;
+        color: black;
+        border: 2px solid #4CAF50; /* Green */
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+    }
+    .button:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
     }
 </style>
