@@ -3,10 +3,11 @@
     <div class="lesion-mapper">
         <h3>Lesion Mapper</h3>
         <vue-fabric ref="canvas" @mouse:up="mouseUp" @mouse:down="mouseDown" @mouse:dblclick="dblClick" :width="width" :height="height"></vue-fabric>
-        <div class="controls">
+        <div class="controls" :style="cssProps">
             <button class="button" v-on:click="createLesion('bulla')">Bulla</button>
             <button class="button" v-on:click="createLesion('erosion')">Erosion</button>
             <button class="button" v-on:click="createLesion('macule')">Macule</button>
+            <button class="button" v-on:click="createLesion('patch_pigmented')">Patch</button>
             <button class="button" v-on:click="createLesion('nodule')">Nodule</button>
             <button class="button" v-on:click="createLesion('papule')">Papule</button>
             <button class="button" v-on:click="createLesion('plaque')">Plaque</button>
@@ -26,7 +27,11 @@
             <button class="button" v-on:click="createLesion('demarcated')">Demarcated</button>
             <button class="button" v-on:click="createLesion('grouped')">Grouped</button>
             <button class="button" v-on:click="createLesion('hirsutism')">Hirsutism</button>
+            <button class="button" v-on:click="createLesion('onset')">Site of Onset</button>
+            <button class="button" v-on:click="createLesion('migration')">Migration</button>
             <button class="button" v-on:click="createLesion('photosensitivity')">Photosensitivity</button>
+            <button class="button" v-on:click="createLesion('progression')">Progression</button>
+            <button class="button" v-on:click="createLesion('unilateral')">Unilateral</button>
 
             <hr>
             <button class="button" v-on:click="startDraw()">Draw</button>
@@ -57,7 +62,13 @@
         components: {
             VueFabric
         },
-        computed: {},
+        computed: {
+            cssProps(){
+                return {
+                    '--bg-hover-color': this.lmColor,
+                }
+            }
+        },
         mounted: function () {
             if (this.lmImage == null)
                 this.$refs.canvas.setBackgroundImage(this.getLesion('body'));
@@ -127,6 +138,10 @@
             lmJson: String,
             lmImage: String,
             lmDebug: Boolean,
+            lmColor: {
+                type: String,
+                default: 'green'
+            },
         },
     }
 </script>
@@ -148,7 +163,7 @@
     .button {
         background-color: white;
         color: black;
-        border: 2px solid #4CAF50; /* Green */
+        border: 2px solid var(--bg-hover-color); 
         padding: 10px 24px;
         text-align: center;
         text-decoration: none;
@@ -158,7 +173,7 @@
         transition-duration: 0.4s;
     }
     .button:hover {
-        background-color: #4CAF50; /* Green */
+        background-color: var(--bg-hover-color); 
         color: white;
     }
 </style>
