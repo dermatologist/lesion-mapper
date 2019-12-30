@@ -37,13 +37,14 @@ Vue.component('LesionMapper',LesionMapper);
 
 #### Props
 
-| Name   | Type   | Default | Description   |
-| ------ | ------ | ------- | ------------- |
+| Name     | Type   | Default | Description   |
+| -------- | ------ | ------- | ------------- |
 | lmWidth  | Number | 0       | canvas width  |
 | lmHeight | Number | 0       | canvas height |
 | lmJson   | String | ""      | Json to render|
 | lmImage  | String | ""      | Background    |
 | lmDebug  | Boolean| false   | Debug?        |
+| lmColor  | String | green   | Button color  |
 
 #### Events
 
