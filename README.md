@@ -57,6 +57,22 @@ Vue.component('LesionMapper',LesionMapper);
 #### Methods
 setLmBackground(image)
 
+#### Install the development version from GitHub as below
+
+Add the following to .npmrc
+
+```
+registry=https://registry.npmjs.org/
+@dermatologist:registry=https://npm.pkg.github.com
+
+```
+And
+
+```
+npm install @dermatologist/lesion-mapper --save
+
+```
+
 ## Contributors
 
 * [Bell Eapen](https://nuchange.ca)
