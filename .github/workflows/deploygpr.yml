@@ -3,11 +3,7 @@ name: Deploy GPR
 on: 
   push:
     branches:
-      - develop
-  pull_request:
-    branches:
       - master
-      - develop
 # on:
 #   release:
 #     types: [created]

@@ -10,7 +10,7 @@ Refer: https://vue-test-utils.vuejs.org/guides/testing-single-file-components-wi
 See also: webpack.config.js
 */
 describe('LesionMapper', () => {
-  it('mount the lesionmapper component', () => {
+  it('mount the LesionMapper component', () => {
       //shallowMount to Mount
     try{  
         const wrapper = Mount(LesionMapper)
