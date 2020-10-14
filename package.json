@@ -48,7 +48,7 @@
     "expect": "^24.9.0",
     "jsdom": "^15.2.1",
     "jsdom-global": "^3.0.2",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.5",
     "mocha": "^6.2.2",
     "mochapack": "^1.1.13",
     "rollup": "^1.26.3",
