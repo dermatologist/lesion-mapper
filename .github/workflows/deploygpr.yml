@@ -1,12 +1,12 @@
-name: Deploy GPR
+name: deploy
 
-on: 
-  push:
-    branches:
-      - master
 # on:
-#   release:
-#     types: [created]
+#   push:
+#     branches:
+#       - master
+on:
+  release:
+    types: [created]
 
 jobs:
   build:
