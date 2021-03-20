@@ -8,10 +8,7 @@ module.exports = {
       // ... other rules
       {
         test: /\.(png|jpg)$/,
-        loader: 'url-loader',
-        query: {
-          limit: 8192
-        }
+        loader: 'url-loader'
       },
       {
         test: /\.css$/,
@@ -31,7 +28,7 @@ module.exports = {
     new VueLoaderPlugin()
   ],
   externals: {
-    
+
   },
   devtool: 'inline-cheap-module-source-map',
   output: {
