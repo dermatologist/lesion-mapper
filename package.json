@@ -34,7 +34,7 @@
     "gpr-setup": "node scripts/gpr.js"
   },
   "dependencies": {
-    "canvas": "^2.6.1",
+    "canvas": "^2.7.0",
     "np": "^5.2.1",
     "vuejs-fabric": "0.2.7"
   },
