@@ -49,8 +49,8 @@
     "jsdom": "^15.2.1",
     "jsdom-global": "^3.0.2",
     "minimist": "^1.2.5",
-    "mocha": "^6.2.2",
-    "mochapack": "^1.1.13",
+    "mocha": "^9.0.0",
+    "mochapack": "^2.1.2",
     "rollup": "^1.26.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-terser": "^5.1.2",
@@ -60,7 +60,7 @@
     "vue-loader": "^15.8.3",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.10",
-    "webpack-node-externals": "^1.7.2"
+    "webpack-node-externals": "^3.0.0"
   },
   "engines": {
     "node": ">=8"
