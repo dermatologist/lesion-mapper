@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Eapen"
+  given-names: "Bell Raj"
+  orcid: "https://orcid.org/0000-0003-3208-4977"
+- family-names: "Archer"
+  given-names: "Norm"
+  orcid: "https://orcid.org/0000-0003-4666-9570"
+- family-names: "Sartipi"
+  given-names: "Kamran"
+  orcid: "https://orcid.org/0000-0002-3588-5991"
+title: "LesionMapper is a tool and a method for standardized mapping of lesions in Dermatology"
+version: 0.1.6
+date-released: 2019-12-22
+url: "https://github.com/dermatologist/lesion-mapper"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Eapen"
+    given-names: "Bell Raj"
+    orcid: "https://orcid.org/0000-0003-3208-4977"
+  - family-names: "Archer"
+    given-names: "Norm"
+    orcid: "https://orcid.org/0000-0003-4666-9570"
+  - family-names: "Sartipi"
+    given-names: "Kamran"
+    orcid: "https://orcid.org/0000-0002-3588-5991"
+  doi: "10.2196/18149"
+  journal: "JMIR Dermatol"
+  month: 4
+  start: e18149
+  title: "LesionMap: A Method and Tool for the Semantic Annotation of Dermatological Lesions for Documentation and Machine Learning"
+  issue: 1
+  volume: 3
+  year: 2020
